@@ -1,0 +1,10 @@
+                    <div className="flex flex-row" >
+                        Equation: B.E. = a<sub>V</sub>A - a<sub>S</sub>A<sup>2/3</sup> - a<sub>c</sub>
+                        <div className="text-black w-[65px] grid justify-items-center " >
+                            <div className="grid justify-items-center" >
+                                <h1 className="text-center lg:text-sm sm:text-xs" >Z(Z-1)<sup>2</sup></h1>
+                                <hr className="w-[40px] " />
+                            </div>
+                            <h1 className="text-center  lg:text-sm sm:text-xs" >A</h1>
+                        </div>
+                    </div>
