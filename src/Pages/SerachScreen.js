@@ -71,8 +71,8 @@ const SearchScreen = () => {
                 <h2 className=" text-center text-2xl font-normal mb-2  mt-12" >Enter Isotope Properties:</h2>
 
                 <div className="grid justify-items-center " >
-                    <CustomInput placeholder={"Enter Z Value"} value={Z} onChange={({ target }) => { setZ(target.value) }} error={error1} error_message={errMsg1} />
-                    <CustomInput placeholder={"Enter N Value"} value={N} onChange={({ target }) => { setN(target.value) }} error={error2} error_message={errMsg2} />
+                    <CustomInput placeholder={"Enter the number of protons (Z)"} value={Z} onChange={({ target }) => { setZ(target.value) }} error={error1} error_message={errMsg1} />
+                    <CustomInput placeholder={"Enter the number of neutrons (N)"} value={N} onChange={({ target }) => { setN(target.value) }} error={error2} error_message={errMsg2} />
 
 
                     <div className=" mx-[110px]" >
