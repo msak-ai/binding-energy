@@ -17,7 +17,8 @@ const CalulationScreen = () => {
     } = useGlobalState();
     const apiCall = async () => {
         try {
-            const url = `http://10.104.10.147:4444/data?z=${Z}&n=${N}`;
+            const url = `https://physics-poc.onrender.com/data?z=${Z}&n=${N}`;
+            
             const response = await fetch(url);
             if (response.ok) {
                 const json = await response.json();
